@@ -1,4 +1,4 @@
-module github.com/darkinno/jtt-808-go-sdk
+module github.com/im10furry/jtt-808-go-sdk
 
 go 1.25.6
 

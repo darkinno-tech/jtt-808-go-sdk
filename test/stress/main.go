@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/darkinno/jtt-808-go-sdk/protocol"
-	"github.com/darkinno/jtt-808-go-sdk/protocol/types"
+	"github.com/im10furry/jtt-808-go-sdk/protocol"
+	"github.com/im10furry/jtt-808-go-sdk/protocol/types"
 )
 
 var (

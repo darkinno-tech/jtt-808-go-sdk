@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/darkinno/jtt-808-go-sdk/core"
+	"github.com/im10furry/jtt-808-go-sdk/core"
 	_ "github.com/go-sql-driver/mysql"
 )
 

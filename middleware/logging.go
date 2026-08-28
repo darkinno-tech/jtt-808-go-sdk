@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/darkinno/jtt-808-go-sdk/core"
-	"github.com/darkinno/jtt-808-go-sdk/logger"
+	"github.com/im10furry/jtt-808-go-sdk/core"
+	"github.com/im10furry/jtt-808-go-sdk/logger"
 )
 
 // Logging 请求日志记录中间件

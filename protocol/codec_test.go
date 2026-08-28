@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/darkinno/jtt-808-go-sdk/protocol/types"
+	"github.com/im10furry/jtt-808-go-sdk/protocol/types"
 )
 
 // TestVersionCompatibility 测试版本兼容性

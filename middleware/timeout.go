@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/darkinno/jtt-808-go-sdk/core"
+	"github.com/im10furry/jtt-808-go-sdk/core"
 )
 
 // Timeout 超时控制中间件

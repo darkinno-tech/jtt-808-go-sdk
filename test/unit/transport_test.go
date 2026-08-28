@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/darkinno/jtt-808-go-sdk/core"
-	"github.com/darkinno/jtt-808-go-sdk/protocol"
-	"github.com/darkinno/jtt-808-go-sdk/transport"
+	"github.com/im10furry/jtt-808-go-sdk/core"
+	"github.com/im10furry/jtt-808-go-sdk/protocol"
+	"github.com/im10furry/jtt-808-go-sdk/transport"
 )
 
 // TestTCPServerCreation 测试TCP服务器创建

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/darkinno/jtt-808-go-sdk/protocol"
-	"github.com/darkinno/jtt-808-go-sdk/protocol/types"
+	"github.com/im10furry/jtt-808-go-sdk/protocol"
+	"github.com/im10furry/jtt-808-go-sdk/protocol/types"
 )
 
 // TestE2E_CompleteTerminalLifecycle 测试终端完整生命周期：
