@@ -23,7 +23,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/darkinno/jtt-808-go-sdk.git
+git clone https://github.com/im10furry/jtt-808-go-sdk.git
 cd jt808-go-sdk
 
 # 编译

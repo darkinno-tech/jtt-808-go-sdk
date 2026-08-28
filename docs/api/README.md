@@ -250,11 +250,11 @@ import (
     "context"
     "log"
     
-    "github.com/darkinno/jtt-808-go-sdk/core"
-    "github.com/darkinno/jtt-808-go-sdk/protocol"
-    "github.com/darkinno/jtt-808-go-sdk/protocol/types"
-    "github.com/darkinno/jtt-808-go-sdk/storage"
-    "github.com/darkinno/jtt-808-go-sdk/transport"
+    "github.com/im10furry/jtt-808-go-sdk/core"
+    "github.com/im10furry/jtt-808-go-sdk/protocol"
+    "github.com/im10furry/jtt-808-go-sdk/protocol/types"
+    "github.com/im10furry/jtt-808-go-sdk/storage"
+    "github.com/im10furry/jtt-808-go-sdk/transport"
 )
 
 func main() {
@@ -426,7 +426,7 @@ type Subscriber interface {
 ### Kafka 实现
 
 ```go
-import "github.com/darkinno/jtt-808-go-sdk/publisher/kafka"
+import "github.com/im10furry/jtt-808-go-sdk/publisher/kafka"
 
 // 创建Kafka发布者
 kafkaPublisher := kafka.NewPublisher(&kafka.Config{
@@ -476,7 +476,7 @@ server.Use(middleware.Auth(func(deviceID string) bool {
 ## 日志
 
 ```go
-import "github.com/darkinno/jtt-808-go-sdk/logger"
+import "github.com/im10furry/jtt-808-go-sdk/logger"
 
 // 创建日志记录器
 log := logger.NewLogger(logger.InfoLevel)

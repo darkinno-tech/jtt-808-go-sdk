@@ -22,18 +22,18 @@
 ### 使用 Go Modules
 
 ```bash
-go get github.com/darkinno/jtt-808-go-sdk
+go get github.com/im10furry/jtt-808-go-sdk
 ```
 
 ### 在项目中引入
 
 ```go
 import (
-    "github.com/darkinno/jtt-808-go-sdk/core"
-    "github.com/darkinno/jtt-808-go-sdk/protocol"
-    "github.com/darkinno/jtt-808-go-sdk/protocol/types"
-    "github.com/darkinno/jtt-808-go-sdk/storage"
-    "github.com/darkinno/jtt-808-go-sdk/transport"
+    "github.com/im10furry/jtt-808-go-sdk/core"
+    "github.com/im10furry/jtt-808-go-sdk/protocol"
+    "github.com/im10furry/jtt-808-go-sdk/protocol/types"
+    "github.com/im10furry/jtt-808-go-sdk/storage"
+    "github.com/im10furry/jtt-808-go-sdk/transport"
 )
 ```
 
@@ -51,11 +51,11 @@ import (
     "fmt"
     "log"
     
-    "github.com/darkinno/jtt-808-go-sdk/core"
-    "github.com/darkinno/jtt-808-go-sdk/protocol"
-    "github.com/darkinno/jtt-808-go-sdk/protocol/types"
-    "github.com/darkinno/jtt-808-go-sdk/storage"
-    "github.com/darkinno/jtt-808-go-sdk/transport"
+    "github.com/im10furry/jtt-808-go-sdk/core"
+    "github.com/im10furry/jtt-808-go-sdk/protocol"
+    "github.com/im10furry/jtt-808-go-sdk/protocol/types"
+    "github.com/im10furry/jtt-808-go-sdk/storage"
+    "github.com/im10furry/jtt-808-go-sdk/transport"
 )
 
 func main() {
@@ -184,10 +184,10 @@ import (
     "context"
     "log"
     
-    "github.com/darkinno/jtt-808-go-sdk/core"
-    "github.com/darkinno/jtt-808-go-sdk/protocol"
-    "github.com/darkinno/jtt-808-go-sdk/protocol/types"
-    "github.com/darkinno/jtt-808-go-sdk/transport"
+    "github.com/im10furry/jtt-808-go-sdk/core"
+    "github.com/im10furry/jtt-808-go-sdk/protocol"
+    "github.com/im10furry/jtt-808-go-sdk/protocol/types"
+    "github.com/im10furry/jtt-808-go-sdk/transport"
 )
 
 func main() {
@@ -302,7 +302,7 @@ func sendRegisterResponse(conn core.Connection, msg *core.Message, result uint8,
 ### 使用中间件
 
 ```go
-import "github.com/darkinno/jtt-808-go-sdk/middleware"
+import "github.com/im10furry/jtt-808-go-sdk/middleware"
 
 func main() {
     server := transport.NewTCPServer(nil)
@@ -322,7 +322,7 @@ func main() {
 ### 使用消息队列
 
 ```go
-import "github.com/darkinno/jtt-808-go-sdk/publisher/kafka"
+import "github.com/im10furry/jtt-808-go-sdk/publisher/kafka"
 
 func main() {
     // 创建Kafka发布者
@@ -353,7 +353,7 @@ func main() {
 ### 使用数据库存储
 
 ```go
-import "github.com/darkinno/jtt-808-go-sdk/storage/mysql"
+import "github.com/im10furry/jtt-808-go-sdk/storage/mysql"
 
 func main() {
     // 创建MySQL存储
@@ -417,7 +417,7 @@ msg.Header.SubPackage = true
 使用 logger 包创建自定义日志记录器：
 
 ```go
-import "github.com/darkinno/jtt-808-go-sdk/logger"
+import "github.com/im10furry/jtt-808-go-sdk/logger"
 
 // 创建日志记录器
 log := logger.NewLogger(logger.DebugLevel)
