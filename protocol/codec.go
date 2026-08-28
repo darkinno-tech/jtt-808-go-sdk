@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/im10furry/jtt-808-go-sdk/core"
-	"github.com/im10furry/jtt-808-go-sdk/protocol/types"
+	"github.com/darkinno-tech/jtt-808-go-sdk/core"
+	"github.com/darkinno-tech/jtt-808-go-sdk/protocol/types"
 )
 
 var (

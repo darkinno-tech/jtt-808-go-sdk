@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/im10furry/jtt-808-go-sdk/core"
-	"github.com/im10furry/jtt-808-go-sdk/storage"
+	"github.com/darkinno-tech/jtt-808-go-sdk/core"
+	"github.com/darkinno-tech/jtt-808-go-sdk/storage"
 )
 
 // TestMemoryStorageCreation 测试内存存储创建

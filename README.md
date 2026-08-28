@@ -23,7 +23,7 @@
 ### 安装
 
 ```bash
-go get github.com/im10furry/jtt-808-go-sdk
+go get github.com/darkinno-tech/jtt-808-go-sdk
 ```
 
 ### 创建 TCP 服务端
@@ -36,11 +36,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/im10furry/jtt-808-go-sdk/core"
-	"github.com/im10furry/jtt-808-go-sdk/protocol"
-	"github.com/im10furry/jtt-808-go-sdk/protocol/types"
-	"github.com/im10furry/jtt-808-go-sdk/storage"
-	"github.com/im10furry/jtt-808-go-sdk/transport"
+	"github.com/darkinno-tech/jtt-808-go-sdk/core"
+	"github.com/darkinno-tech/jtt-808-go-sdk/protocol"
+	"github.com/darkinno-tech/jtt-808-go-sdk/protocol/types"
+	"github.com/darkinno-tech/jtt-808-go-sdk/storage"
+	"github.com/darkinno-tech/jtt-808-go-sdk/transport"
 )
 
 func main() {
@@ -255,7 +255,7 @@ jtt-808-go-sdk/
 ## 开发
 
 ```bash
-git clone https://github.com/im10furry/jtt-808-go-sdk.git
+git clone https://github.com/darkinno-tech/jtt-808-go-sdk.git
 cd jtt-808-go-sdk
 
 go mod download

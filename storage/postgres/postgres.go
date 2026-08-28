@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/im10furry/jtt-808-go-sdk/core"
+	"github.com/darkinno-tech/jtt-808-go-sdk/core"
 	_ "github.com/lib/pq"
 )
 

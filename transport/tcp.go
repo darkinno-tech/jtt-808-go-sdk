@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/im10furry/jtt-808-go-sdk/core"
-	"github.com/im10furry/jtt-808-go-sdk/protocol"
+	"github.com/darkinno-tech/jtt-808-go-sdk/core"
+	"github.com/darkinno-tech/jtt-808-go-sdk/protocol"
 )
 
 // TCPServer TCP服务器

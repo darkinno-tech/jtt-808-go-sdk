@@ -4,8 +4,8 @@ import (
 	"context"
 	"runtime/debug"
 
-	"github.com/im10furry/jtt-808-go-sdk/core"
-	"github.com/im10furry/jtt-808-go-sdk/logger"
+	"github.com/darkinno-tech/jtt-808-go-sdk/core"
+	"github.com/darkinno-tech/jtt-808-go-sdk/logger"
 )
 
 // Recovery Panic恢复中间件
